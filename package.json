@@ -1,0 +1,7 @@
+{
+  "name": "code_advent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Chris Hatch <chris.hatch@hotelengine.com>",
+  "license": "MIT"
+}
