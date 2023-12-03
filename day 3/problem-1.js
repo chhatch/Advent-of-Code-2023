@@ -1,6 +1,9 @@
 const fs = require("fs");
 
-const schematic = fs.readFileSync("input.txt", "utf8").split("\n");
+const schematic = fs
+  .readFileSync("input.txt", "utf8")
+  .split("\n")
+  .map((row) => row.split(""));
 const partNumbers = [];
 const rows = schematic.length;
 const columns = schematic[0].length;
